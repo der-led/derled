@@ -1,7 +1,7 @@
 # Site settings
 title: 雑記録 # site title
 description: >- # site description
-  Write to learn. Learn to write.<br><img src="/assets/img/twitter.png">
+  Write to learn. Learn to write.<br><a href="https://twitter.com/der_led"><img src="/assets/img/twitter.png"></a>
 lang: ja-jp # default lang
 timezone: Asia/Tokyo # set your timezone
 image: assets/img/avatar.png # This image used for Open Graph more info https://ogp.me/
