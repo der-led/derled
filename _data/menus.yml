@@ -9,6 +9,10 @@
 - title: archive
   url: /archive/
   external: false
+ 
+- title: twitter
+  url: https://twitter.com/der_led
+  external: true
 
 # Example:
 # - title: github
