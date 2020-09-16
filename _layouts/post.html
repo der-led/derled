@@ -34,6 +34,17 @@ layout: compress
       <article itemscope itemtype="https://schema.org/BlogPosting">
 
         <header class="header">
+          {% if page.categories and page.categories != empty %}
+          <div class="categories">
+            {% assign categories = page.categories %}
+            <span itemprop="keywords">
+              {% for category in categories %}
+              <a class="category"
+                href="/categories/#{{category | downcase | slugify}}">{{category | upcase }}</a>{% unless forloop.last %},{% endunless %}
+              {% endfor %}
+            </span>
+          </div>
+          {% endif %}
           {% if page.tags and page.tags != empty %}
           <div class="tags">
             {% assign tags = page.tags %}
