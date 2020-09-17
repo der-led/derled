@@ -17,6 +17,10 @@
 - title: twitter
   url: https://twitter.com/der_led
   external: true
+  
+  - title: tumblr
+  url: https://derled.tumblr.com/
+  external: true
 
 # Example:
 # - title: github
